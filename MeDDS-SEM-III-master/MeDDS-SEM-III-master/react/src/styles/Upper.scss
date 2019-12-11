@@ -1,0 +1,118 @@
+@import "./colors.scss";
+.outerUpper {
+    overflow: hidden;
+    height: 80vh;
+  padding: 0 5rem;
+  @media only screen and (max-width: 1024px) {
+    padding: 0rem;
+    text-align: center;
+  }
+  .textUpper {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    .upperText {
+      font-weight: 200;
+      font-size: 7rem;
+      line-height: 1;
+      .upperLogo {
+        font-weight: 600;
+        color: $tertiary;
+      }
+    }
+  }
+}
+.buttons {
+    
+
+@media only screen and (max-width: 1460px) {
+    margin-top: 2rem;
+    margin: 0 9rem;
+  }
+  @media only screen and (max-width: 770px) {
+    margin-top: 2rem;
+    margin: 0 ;
+  }
+}
+.button {
+  border-radius: 30px;
+  width: 10rem;
+  padding-left: 2rem;
+  @media only screen and (max-width: 1460px) {
+    width: 8rem;
+  }
+  @media only screen and (max-width: 1300px) {
+    width: 8rem;
+  }
+  
+}
+.textButton {
+  font-size: 0.9rem;
+  padding: 40px 0;
+  @media only screen and (max-width: 1460px) {
+    font-size: 0.6rem;
+  }
+  @media only screen and (max-width: 1300px) {
+    font-size: 0.6rem;
+  }
+  
+}
+.bold1 {
+  font-weight: 700;
+}
+.imageUpper {
+  position: absolute;
+  right: 0;
+
+  .image {
+    width: 100% !important;
+    top:0;
+    overflow: hidden;
+
+    @media only screen and (max-width: 1023px) {
+        width:80%;
+      }
+  }
+}
+* {
+  // border:1px solid red;
+}
+.onPhone {
+  @media only screen and (min-width: 1023px) {
+    display: none;
+  }
+  .outerUpper {
+    height: 80vh;
+    padding: 0rem !important;
+  }
+  .textUpper {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 50%;
+    transform: translateX(-50%);
+
+    .upperText {
+      font-weight: 200;
+      font-size: 2rem;
+      line-height: 1;
+
+      .upperLogo {
+        font-weight: 600;
+        color: $tertiary;
+      }
+    }
+  }
+
+}
+.onPc {
+  @media only screen and (max-width: 1023px) {
+    display: none;
+  }
+}
+.UpperPhone {
+  position: relative;
+  margin-top: 40%;
+  transform: translateY(-50%);
+  text-align: center;
+}

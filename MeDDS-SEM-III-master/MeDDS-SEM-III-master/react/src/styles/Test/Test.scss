@@ -1,0 +1,53 @@
+
+    .div1{
+        // height:30vh;
+        width:60%;
+        border-radius: 30px;
+        position: absolute;
+        top:50%;
+        transform: translateY(-50%);
+        padding:5rem 5rem;
+        .text{
+            text-align: center;
+        }
+        .titleTest{
+            font-weight:400;
+            font-size: 2rem;
+            margin-left:10px;
+            margin:10px 0 0 10px;
+        }
+        .upload{
+            margin-top:5rem;
+        }
+    }
+.leftTest{
+    
+}
+.rightTest{
+
+    .image{
+        width:100%;
+        position: absolute;
+        top:50%;
+        transform: translateY(-50%);
+
+    }
+
+}
+.buttontest{
+    text-align: center;
+    .btnTest{
+        border-radius: 20px;
+    }
+    
+}
+
+.k{
+    position:absolute;
+    top:100vh;
+    width:100%;
+    .imag{
+        width:40%;
+        margin: 0 auto;
+    }
+}

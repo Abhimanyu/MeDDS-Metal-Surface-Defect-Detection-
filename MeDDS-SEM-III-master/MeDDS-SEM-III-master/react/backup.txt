@@ -1,0 +1,91 @@
+app
+
+
+import React, { Component } from "react";
+import Nav from "./Nav"
+class App extends Component {
+  render() {
+    return (
+      <div className="App">
+        <Nav/>
+      </div>
+    );
+  }
+}
+
+export default App;
+
+
+
+
+nav
+
+
+jsx
+
+
+
+import React, { Component } from "react";
+import "../styles/Nav.scss";
+class Nav extends Component {
+  state = {};
+  render() {
+    return (
+      <div className="outerNav">
+        <div className="row">
+          <div className="col-sm-12 col-md-6">
+              <span className="logoNav">
+                  Logo
+              </span>
+          </div>
+          <div className="col-sm-12 col-md-6 navButton">
+            <div className="row">
+                <div className="col-sm-12 col-md-4">
+                <span className="ButtonNav">
+                  Home
+              </span>
+                </div>
+                <div className="col-sm-12 col-md-4">
+                <span className="ButtonNav">
+                  Admin
+              </span>
+                </div>
+                <div className="col-sm-12 col-md-4">
+                <span className="ButtonNav">
+                  About us 
+              </span>
+                </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    );
+  }
+}
+
+export default Nav;
+
+
+
+scss
+
+
+
+
+.outerNav{
+    height:8vh;  
+    .logoNav{
+        font-weight:600;
+        font-size:3rem;
+        padding-left:30px;
+    }
+    .navButton{
+padding-top:19px;   
+        .ButtonNav{
+            font-weight:600;
+            font-size:1.4rem;
+            padding-left:30px;
+        }
+    }
+}
+

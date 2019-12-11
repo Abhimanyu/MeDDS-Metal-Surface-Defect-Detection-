@@ -1,0 +1,19 @@
+@import "fonts.scss";
+@import 'colors.scss';
+@import 'App.scss';
+
+*{
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  color: $secondary;
+  background-color: $primary;
+  font-family: $primary-font;
+}
+
+code {
+  font-family:roboto, source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
