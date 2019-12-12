@@ -1,2 +1,2 @@
 # MeDDS-Metal-Surface-Defect-Detection-
-my name is AbhiManyu
+My name is abhimanyu
